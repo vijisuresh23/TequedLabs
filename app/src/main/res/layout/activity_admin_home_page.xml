@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AdminHomePage">
+
+<EditText
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="Logout"
+    android:cursorVisible="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:layout_marginLeft="260dp"
+    android:id="@+id/logout"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/logout"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/courselist"
+        android:fontFamily="@font/kaushan"
+        android:textSize="25sp"
+        android:text="Course list"
+        tools:ignore="DuplicateIds" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:background="@drawable/student"
+        android:fontFamily="@font/kaushan"
+        android:textSize="25sp"
+        android:text="student list"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button2"
+        android:background="@drawable/attendance"
+        android:fontFamily="@font/kaushan"
+        android:textSize="25sp"
+        android:text="attendance status"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button3"
+        android:background="@drawable/index"
+        android:fontFamily="@font/kaushan"
+        android:textSize="25sp"
+        android:textColor="#0C0C0C"
+        android:text="Announcements"
+        />
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".TeacherStatus">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="100dp"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"
+        android:id="@+id/abc1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course "
+        android:layout_below="@+id/abc1"
+        android:layout_marginRight="100dp"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"
+        android:id="@+id/et2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date "
+        android:layout_below="@+id/et2"
+        android:layout_marginRight="100dp"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"
+        android:id="@+id/et3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Attendance "
+        android:layout_below="@+id/et3"
+        android:layout_marginRight="100dp"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"
+        android:id="@+id/et4"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/calculate"
+        android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="submit attendance"
+                android:layout_below="@+id/et4"
+                />
+
+</RelativeLayout>

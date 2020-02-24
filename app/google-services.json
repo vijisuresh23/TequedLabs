@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "745377400825",
+    "firebase_url": "https://tequed-labs.firebaseio.com",
+    "project_id": "tequed-labs",
+    "storage_bucket": "tequed-labs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745377400825:android:c049b58afce9d8751d1f28",
+        "android_client_info": {
+          "package_name": "com.example.tequedlabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745377400825-cqiid7ve719etsnl1krchaogi58ujgia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tequedlabs",
+            "certificate_hash": "102dee1362acd37fa1ad4667ffd799efc08ed65c"
+          }
+        },
+        {
+          "client_id": "745377400825-p7kd440mcq4fg05n6i1t99bo67q01447.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvgH8AjC5BdnLC-IEp9hKW2xnTYRwawWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745377400825-p7kd440mcq4fg05n6i1t99bo67q01447.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
